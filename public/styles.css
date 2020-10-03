@@ -36,7 +36,7 @@ header {
 }
 
 .card {
-  width: 350px;
+  max-width: 350px;
   height: 516px;
 
   border-radius: 36px;

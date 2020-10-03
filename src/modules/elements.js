@@ -9,6 +9,7 @@ export default class Elements {
     this.seekbar = document.querySelector('#seekbar')
 
     this.episodesList = document.querySelector('.episodes-list')
+    this.nextEpisodes = {}
   }
 
   tooglePlayPauseIcon() {
@@ -22,6 +23,8 @@ export default class Elements {
   }
 
   loadNextEpisodes() {
+    this.episodesList.innerHTML = ''
+
     this.episodes.map((episode, index) => {
       if (index === this.currentPlaying) return
 
@@ -44,6 +47,19 @@ export default class Elements {
 
       this.episodesList.appendChild(card)
     })
+
+    this.nextEpisodes = document.querySelectorAll('.episode-card')
+  }
+
+  changeEpisode(episodeIndex) {
+    this.pause()
+
+    this.currentPlaying = Number(episodeIndex)
+
+    this.update()
+    this.loadNextEpisodes()
+
+    this.play()
   }
 
   actions() {
@@ -57,6 +73,10 @@ export default class Elements {
     this.seekbar.oninput = () => this.setSeek(this.seekbar.value)
     this.seekbar.onchange = () => this.setSeek(this.seekbar.value)
     this.seekbar.max = this.audio.duration
+
+    this.nextEpisodes.forEach(episode => {
+      episode.onclick = () => this.changeEpisode(episode.attributes.id.value)
+    })
   }
 
   update() {
@@ -71,7 +91,11 @@ export default class Elements {
       ${episode.artist}
     `
 
-    this.loadNextEpisodes()
     this.reload()
+  }
+
+  start() {
+    this.update()
+    this.loadNextEpisodes()
   }
 }

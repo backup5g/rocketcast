@@ -5,7 +5,7 @@ function start() {
   window.addEventListener('load', () => {
     const player = new Player(episodes) 
 
-    player.update(episodes)
+    player.start(episodes)
   })
 }
 
