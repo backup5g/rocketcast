@@ -1,0 +1,242 @@
+:root {
+  --primary: #1BA9EB;
+  --primary-dark: #0d6e9b;
+  --background: #0D0E13;
+  --card-background: #191B24;
+  --text-primary: #FFF;
+  --text-in-card: #4B4D5A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  background: url('../assets/background.png') no-repeat right top;
+  background-color: var(--background);
+
+  padding: 64px;
+}
+
+header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  margin: 64px 0;
+}
+
+.card {
+  width: 350px;
+  height: 516px;
+
+  border-radius: 36px;
+  background-color: var(--card-background);
+}
+
+.card .card-image {
+  width: 350px;
+  height: 196px;
+
+  border-radius: 24px 24px 0 0;
+  background: url('../assets/images/vale-a-pena-utilizar-adonisjs.jpg') no-repeat center center / cover;
+}
+
+.card .card-content {
+  padding: 24px;
+}
+
+.card .card-content h1 {
+  color: var(--text-primary);
+  font: bold 24px 'Roboto', sans-serif;
+}
+
+.card .card-content .description {
+  margin-top: 24px;
+}
+
+.card .card-content .description p {
+  display: flex;
+  align-items: center;
+
+  color: var(--text-in-card);
+  font: normal 16px 'Roboto', sans-serif;
+}
+
+.card .card-content .description p + p {
+  margin-top: 16px;
+}
+
+.card .card-content .description p ion-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.card .player {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-top: 24px;
+}
+
+.card .player button {
+  height: 43px;
+  width: 43px;
+
+  border: none;
+  border-radius: 50%;
+
+  color: var(--text-primary);
+  background-color: var(--primary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s;
+}
+
+.card .player button:hover {
+  cursor: pointer;
+  color: var(--primary);
+  background-color: var(--text-primary);
+}
+
+.card .player button ion-icon {
+  font-size: 20px;
+}
+
+.card .player #seekbar {
+  width: 100%;
+  max-width: 180px;
+}
+
+input[type="range"] {
+  all: unset;
+  outline: none;
+
+  height: 8px;
+  border-radius: 20px;
+  background-color: var(--text-in-card);
+}
+
+#seekbar::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+
+  border: none;
+  border-radius: 50%;
+  background: var(--primary);
+
+  transform: translateY(0.5px);
+}
+
+#seekbar::-ms-range-thumb {
+  width: 14px;
+  height: 14px;
+
+  border: none;
+  border-radius: 50%;
+  background: var(--primary);
+
+  transform: translateY(0.5px);
+}
+
+#seekbar::-webkit-slider-thumb {
+  -webkit-appearance: none; /* remove a aparencia padão */
+  
+  width: 14px;
+  height: 14px;
+  
+  border: none;
+  border-radius: 50%;
+  background: var(--primary);
+
+  transform: translateY(0.5px);
+}
+
+.card .player a ion-icon {
+  color: var(--text-in-card);
+  font-size: 24px;
+
+  transition: color 0.3s;
+}
+
+.card .player a ion-icon:hover {
+  color: var(--primary);
+}
+
+.episodes-list {
+  margin-left: 160px;
+}
+
+.episodes-list h2 {
+  color: var(--text-primary);
+  font: bold 24px 'Roboto', sans-serif;
+
+  margin-bottom: 32px;
+}
+
+.episodes-list .episode-card {
+  width: 686px;
+  height: 116px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 18px;
+  background-color: var(--card-background);
+
+  transition: 0.3s;
+}
+
+.episodes-list .episode-card:hover {
+  cursor: pointer;
+  transform: translateX(16px);
+}
+
+.episodes-list .episode-card + .episode-card {
+  margin-top: 24px ;
+}
+
+.episodes-list .episode-card .cover {
+  min-width: 204px;
+  height: 116px;
+
+  border-radius: 18px 0 0 18px;
+}
+
+.episodes-list .episode-card .content {
+  display: flex;
+  align-items: center;
+
+  padding: 24px;
+}
+
+.episodes-list .episode-card .content h3 {
+  max-width: 80%;
+
+  color: var(--text-primary);
+  font: 500 20px 'Roboto', sans-serif;
+}
+
+.episodes-list .episode-card .content a ion-icon {
+  color: var(--text-in-card);
+  font-size: 24px;
+
+  margin-left: 41px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: var(--primary);
+}
