@@ -21,7 +21,10 @@
 <h2 id="about">😀 About </h2>
 
 Rocketcast is a beautiful podcast player made with only HTML, CSS and JavaScript. 
-This project reuses the player I built in my [audio player repository ](https://github.com/lucioeiras/audio-player)
+
+This project reuses the player I built in my [audio-player repository ](https://github.com/lucioeiras/audio-player).
+
+You can test the site [here](http://lucioeiras.github.io/rocketcast).
 
 <h2 id="techs">🚀 Technologies </h2>
 
