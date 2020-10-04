@@ -5,6 +5,8 @@
   --card-background: #191B24;
   --text-primary: #FFF;
   --text-in-card: #4B4D5A;
+
+  font-size: 62.5%;
 }
 
 * {
@@ -20,7 +22,7 @@ body {
   background: url('../assets/background.png') no-repeat right top;
   background-color: var(--background);
 
-  padding: 64px;
+  padding: 6.4rem;
 }
 
 header {
@@ -32,36 +34,36 @@ header {
 
 #container {
   display: flex;
-  margin: 64px 0;
+  margin: 6.4rem 0;
 }
 
 .card {
-  max-width: 350px;
-  height: 516px;
+  max-width: 35rem;
+  height: 51.6rem;
 
-  border-radius: 36px;
+  border-radius: 3.6rem;
   background-color: var(--card-background);
 }
 
 .card .card-image {
-  width: 350px;
-  height: 196px;
+  width: 100%;
+  height: 19.6rem;
 
-  border-radius: 24px 24px 0 0;
+  border-radius: 2.4rem 2.4rem 0 0;
   background: url('../assets/images/vale-a-pena-utilizar-adonisjs.jpg') no-repeat center center / cover;
 }
 
 .card .card-content {
-  padding: 24px;
+  padding: 2.4rem;
 }
 
 .card .card-content h1 {
   color: var(--text-primary);
-  font: bold 24px 'Roboto', sans-serif;
+  font: bold 2.4rem 'Roboto', sans-serif;
 }
 
 .card .card-content .description {
-  margin-top: 24px;
+  margin-top: 2.4rem;
 }
 
 .card .card-content .description p {
@@ -69,16 +71,16 @@ header {
   align-items: center;
 
   color: var(--text-in-card);
-  font: normal 16px 'Roboto', sans-serif;
+  font: normal 1.6rem 'Roboto', sans-serif;
 }
 
 .card .card-content .description p + p {
-  margin-top: 16px;
+  margin-top: 1.6rem;
 }
 
 .card .card-content .description p ion-icon {
-  font-size: 24px;
-  margin-right: 8px;
+  font-size: 2.4rem;
+  margin-right: 0.8rem;
 }
 
 .card .player {
@@ -86,12 +88,12 @@ header {
   align-items: center;
   justify-content: space-evenly;
 
-  margin-top: 24px;
+  margin-top: 2.4rem;
 }
 
 .card .player button {
-  height: 43px;
-  width: 43px;
+  height: 4.3rem;
+  width: 4.3rem;
 
   border: none;
   border-radius: 50%;
@@ -113,61 +115,61 @@ header {
 }
 
 .card .player button ion-icon {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .card .player #seekbar {
   width: 100%;
-  max-width: 180px;
+  max-width: 18rem;
 }
 
 input[type="range"] {
   all: unset;
   outline: none;
 
-  height: 8px;
-  border-radius: 20px;
+  height: 0.8rem;
+  border-radius: 2rem;
   background-color: var(--text-in-card);
 }
 
 #seekbar::-moz-range-thumb {
-  width: 14px;
-  height: 14px;
+  width: 1.4rem;
+  height: 1.4rem;
 
   border: none;
   border-radius: 50%;
   background: var(--primary);
 
-  transform: translateY(0.5px);
+  transform: translateY(0.05rem);
 }
 
 #seekbar::-ms-range-thumb {
-  width: 14px;
-  height: 14px;
+  width: 1.4rem;
+  height: 1.4rem;
 
   border: none;
   border-radius: 50%;
   background: var(--primary);
 
-  transform: translateY(0.5px);
+  transform: translateY(0.05rem);
 }
 
 #seekbar::-webkit-slider-thumb {
   -webkit-appearance: none; /* remove a aparencia padão */
   
-  width: 14px;
-  height: 14px;
+  width: 1.4rem;
+  height: 1.4rem;
   
   border: none;
   border-radius: 50%;
   background: var(--primary);
 
-  transform: translateY(0.5px);
+  transform: translateY(0.05rem);
 }
 
 .card .player a ion-icon {
   color: var(--text-in-card);
-  font-size: 24px;
+  font-size: 2.4rem;
 
   transition: color 0.3s;
 }
@@ -177,24 +179,24 @@ input[type="range"] {
 }
 
 .episodes-list {
-  margin-left: 160px;
+  margin-left: 16rem;
 }
 
 .episodes-list h2 {
   color: var(--text-primary);
-  font: bold 24px 'Roboto', sans-serif;
+  font: bold 2.4rem 'Roboto', sans-serif;
 
-  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
 }
 
 .episodes-list .episode-card {
-  max-width: 686px;
-  max-height: 116px;
+  max-width: 68.6rem;
+  max-height: 11.6rem;
 
   display: flex;
   align-items: center;
 
-  border-radius: 18px;
+  border-radius: 1.8rem;
   background-color: var(--card-background);
 
   transition: 0.3s;
@@ -202,39 +204,39 @@ input[type="range"] {
 
 .episodes-list .episode-card:hover {
   cursor: pointer;
-  transform: translateX(16px);
+  transform: translateX(1.6rem);
 }
 
 .episodes-list .episode-card + .episode-card {
-  margin-top: 24px ;
+  margin-top: 2.4rem;
 }
 
 .episodes-list .episode-card .cover {
-  min-width: 204px;
-  height: 116px;
+  min-width: 20.4rem;
+  height: 11.6rem;
 
-  border-radius: 18px 0 0 18px;
+  border-radius: 1.8rem 0 0 1.8rem;
 }
 
 .episodes-list .episode-card .content {
   display: flex;
   align-items: center;
 
-  padding: 24px;
+  padding: 2.4rem;
 }
 
 .episodes-list .episode-card .content h3 {
   max-width: 80%;
 
   color: var(--text-primary);
-  font: 500 20px 'Roboto', sans-serif;
+  font: 500 2rem 'Roboto', sans-serif;
 }
 
 .episodes-list .episode-card .content a ion-icon {
   color: var(--text-in-card);
-  font-size: 24px;
+  font-size: 2.4rem;
 
-  margin-left: 41px;
+  margin-left: 4.1rem;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -243,27 +245,33 @@ input[type="range"]::-webkit-slider-thumb {
 
 @media (max-width: 1100px) {
   .episodes-list .episode-card {
-    max-width: 350px;
-    max-height: 500px;
+    max-width: 35rem;
+    max-height: 50rem;
 
     flex-direction: column;
   }
 
   .episodes-list .episode-card .cover {
-    min-width: 350px;
-    height: 168.75px;
+    min-width: 100%;
+    height: 16.875rem;
   
-    border-radius: 18px 18px 0 0;
+    border-radius: 1.8rem 1.8rem 0 0;
   }
 }
 
 @media (max-width: 700px) {
+  :root {
+    font-size: 60%;
+  }
+
   #container {
     flex-direction: column;
     justify-content: center;
+
+    margin: 2.4rem;
   }
 
   .episodes-list {
-    margin: 64px 0;
+    margin: 6.4rem 0;
   }
 }
