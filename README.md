@@ -4,10 +4,10 @@
 
 <h1 align="center">Rocketcast</h1>
 
-<h3 align="center">📻 A custom podcast player</h3>
+<h3 align="center">📻 Um player de podcast customizado</h3>
 
 <p align="center">
-  <a href="#about">About</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#techs">Technologies</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#tools">Tools</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#license">Credits</a>
+  <a href="#about">Sobre</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#techs">Teconologias</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#tools">Ferramentas</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#license">Créditos</a>
 </p>
 
 <br>
@@ -18,17 +18,17 @@
 
 <br>
 
-<h2 id="about">😀 About </h2>
+<h2 id="about">😀 Sobre o projeto </h2>
 
-Rocketcast is a beautiful podcast player made with only HTML, CSS and JavaScript. 
+Rocketcast é um player de podcast customizado, feito em HTML, CSS e JavaScript. 
 
-This project reuses the player I built in my [audio-player repository ](https://github.com/lucioeiras/audio-player).
+Esse projeto re-usa funcionalidades do meu outro repositório [audio-player](https://github.com/lucioeiras/audio-player).
 
-You can test the site [here](http://lucioeiras.github.io/rocketcast).
+Você pode testar o site [aqui](http://lucioeiras.github.io/rocketcast).
 
-<h2 id="techs">🚀 Technologies </h2>
+<h2 id="techs">🚀 Tecnologias</h2>
 
-This project was developed with the following technologies:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 -  [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 -  [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -36,16 +36,16 @@ This project was developed with the following technologies:
 
 <h2 id="tools">🛠 Tools </h2>
 
-I use the following tools to development:
+Eu usei as seguintes ferramentas para desenvolver as demais partes do projeto:
 
 -  [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install-win10)
 -  [Visual Studio Code](https://code.visualstudio.com/)
 -  [Microsoft Edge](https://www.microsoft.com/pt-br/edge)
 -  [Figma](https://www.figma.com/ui-design-tool/)
 
-<h2 id="license">📝 Credits </h2>
+<h2 id="license">📝 Créditos </h2>
 
-All the images and audios belong to [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg).
+Todas as imagens e áudios pertencem a [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg).
 
 <h1> </h1>
 
