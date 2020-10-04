@@ -7,7 +7,7 @@
 <h3 align="center">📻 A custom podcast player</h3>
 
 <p align="center">
-  <a href="#about">About</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#techs">Technologies</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#tools">Tools</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#license">License</a>
+  <a href="#about">About</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#techs">Technologies</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#tools">Tools</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="#license">Credits</a>
 </p>
 
 <br>
@@ -43,11 +43,13 @@ I use the following tools to development:
 -  [Microsoft Edge](https://www.microsoft.com/pt-br/edge)
 -  [Figma](https://www.figma.com/ui-design-tool/)
 
-<h2 id="license">📝 License </h2>
+<h2 id="license">📝 Credits </h2>
 
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/react-github-repo-list/blob/master/LICENSE) for more information.
+All the images and audios belong to [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg).
 
 <h1> </h1>
+
+
 
 👋 Made by Diego Eiras. 
 [Get in touch!](https://www.linkedin.com/in/diego-eiras-2005ba19b/)
