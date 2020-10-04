@@ -23,7 +23,7 @@ export default class Elements {
   }
 
   loadNextEpisodes() {
-    this.episodesList.innerHTML = ''
+    this.episodesList.innerHTML = '<h2>Próximos episódios</h2>'
 
     this.episodes.map((episode, index) => {
       if (index === this.currentPlaying) return
@@ -33,7 +33,7 @@ export default class Elements {
       card.setAttribute('class', 'episode-card')
       card.innerHTML = `
         <div class="cover" style="
-          background: url('../assets/images/${episode.cover}') no-repeat center center / cover;
+          background: url('assets/images/${episode.cover}') no-repeat center center / cover;
         "></div>
 
         <div class="content">
