@@ -188,8 +188,8 @@ input[type="range"] {
 }
 
 .episodes-list .episode-card {
-  width: 686px;
-  height: 116px;
+  max-width: 686px;
+  max-height: 116px;
 
   display: flex;
   align-items: center;
@@ -239,4 +239,31 @@ input[type="range"] {
 
 input[type="range"]::-webkit-slider-thumb {
   background-color: var(--primary);
+}
+
+@media (max-width: 1100px) {
+  .episodes-list .episode-card {
+    max-width: 350px;
+    max-height: 500px;
+
+    flex-direction: column;
+  }
+
+  .episodes-list .episode-card .cover {
+    min-width: 350px;
+    height: 168.75px;
+  
+    border-radius: 18px 18px 0 0;
+  }
+}
+
+@media (max-width: 700px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .episodes-list {
+    margin: 64px 0;
+  }
 }
