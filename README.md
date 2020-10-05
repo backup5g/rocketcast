@@ -24,7 +24,7 @@ Rocketcast é um player de podcast customizado, feito em HTML, CSS e JavaScript.
 
 Esse projeto re-usa funcionalidades do meu outro repositório [audio-player](https://github.com/lucioeiras/audio-player).
 
-Você pode testar o site [aqui](http://lucioeiras.github.io/rocketcast).
+Você pode testar o site [aqui](http://lucioeiras.github.io/rocketcast/index.html).
 
 <h2 id="techs">🚀 Tecnologias</h2>
 
