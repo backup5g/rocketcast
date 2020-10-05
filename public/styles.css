@@ -4,6 +4,7 @@
   --background: #0D0E13;
   --card-background: #191B24;
   --text-primary: #FFF;
+  --text-secondary:rgb(146, 149, 170);
   --text-in-card: #4B4D5A;
 
   font-size: 62.5%;
@@ -19,6 +20,10 @@
 body {
   height: 100vh;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   background: url('../assets/background.png') no-repeat right top;
   background-color: var(--background);
 
@@ -32,18 +37,16 @@ header {
   justify-content: center;
 }
 
-header img {
-  transform: translateX(-1.4rem);
-}
-
 #container {
+  max-width: 1100px;
+
   display: flex;
   margin: 6.4rem 0;
 }
 
 .card {
   max-width: 35rem;
-  height: 51.6rem;
+  max-height: 51.6rem;
 
   border-radius: 1.8rem;
   background-color: var(--card-background);
@@ -184,7 +187,7 @@ input[type="range"] {
 }
 
 .episodes-list {
-  margin-left: 16rem;
+  margin-left: 6.4rem;
 }
 
 .episodes-list h2 {
@@ -233,7 +236,7 @@ input[type="range"] {
 .episodes-list .episode-card .content h3 {
   max-width: 80%;
 
-  color: var(--text-primary);
+  color: var(--text-secondary);
   font: 500 2rem 'Roboto', sans-serif;
 }
 
