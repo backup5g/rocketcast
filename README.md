@@ -26,6 +26,8 @@ Esse projeto re-usa funcionalidades do meu outro repositório [audio-player](htt
 
 Você pode testar o site [aqui](http://lucioeiras.github.io/rocketcast/index.html).
 
+<br>
+
 <h2 id="techs">🚀 Tecnologias</h2>
 
 <p align="center">
@@ -42,6 +44,8 @@ Você pode testar o site [aqui](http://lucioeiras.github.io/rocketcast/index.htm
   </a>
 </p>
 
+<br>
+
 <h2 id="tools">🛠 Tools </h2>
 
 Eu usei as seguintes ferramentas para desenvolver as demais partes do projeto:
@@ -51,9 +55,13 @@ Eu usei as seguintes ferramentas para desenvolver as demais partes do projeto:
 -  [Microsoft Edge](https://www.microsoft.com/pt-br/edge)
 -  [Figma](https://www.figma.com/ui-design-tool/)
 
+<br>
+
 <h2 id="license">📝 Créditos </h2>
 
 Todas as imagens e áudios pertencem a [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg).
+
+<br>
 
 <h1> </h1>
 
