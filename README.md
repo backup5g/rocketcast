@@ -28,11 +28,19 @@ Você pode testar o site [aqui](http://lucioeiras.github.io/rocketcast/index.htm
 
 <h2 id="techs">🚀 Tecnologias</h2>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
--  [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
--  [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
--  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+<p align="center">
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="80px" />
+  </a> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="58px" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+    <img src="https://pcodinomebzero.neocities.org/Imagens/javascript1.png" width="80px" />
+  </a>
+</p>
 
 <h2 id="tools">🛠 Tools </h2>
 
